@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.pt
+*.pth
+*.dcm
+*.dicom
+*.csv
+*.parquet
+*.json
+*.ipynb
+data/
+outputs/
