@@ -38,6 +38,7 @@ Read the [full methods report](docs/weak_label_validation.md) for the partition 
 | `scripts/rsna_cpu_mask_pilot.py` | Shared frozen-feature training and unknown-label pilot. |
 | `scripts/rsna_cpu_disagreement_pilot.py` | Matched ACL exclusion and broader contradiction-weight experiments. |
 | `scripts/rsna_cpu_v4_source_pilot.py` | Exploratory alternative report-label source check. |
+| `results/*.json` | Aggregate quality-gate and paired run records, including seeds, eligible counts, input hashes and AUC intervals. |
 
 Install Python dependencies with `pip install -r requirements.txt`. Obtain the competition training table, public report-label files and the original frozen feature cache through their respective sources and terms. The loader checks the cache's pinned SHA256; this repository does not contain MRI scans, labels, model weights or identifiable study-level data. Run the report's [reproduction commands](docs/weak_label_validation.md#reproduction-guide) from `scripts/`, using paths to your locally obtained inputs. The guide reproduces the **CPU proxy**, not the public ensemble submissions.
 

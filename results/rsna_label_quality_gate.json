@@ -1,0 +1,278 @@
+{
+  "scope": "Aggregate quality audit of report-derived training labels only; no extra expert truth or leaderboard evidence",
+  "input_sha256": {
+    "manifest": "7a0f0999b313423bcf4650e1b569ab887290936bb10c7d40c098760c1cfae518",
+    "train_csv": "8ca2203c0e9d61c080c7a314c7cdb51c1b03a1d9eb4770819f7f34af53ef4e33"
+  },
+  "split_counts": {
+    "train": 3476,
+    "heldout": 869,
+    "excluded_gold_group": 62
+  },
+  "targets": [
+    {
+      "target": "ACL",
+      "gold58_positive": 24,
+      "train": {
+        "studies": 3476,
+        "steven_explicit": 3182,
+        "steven_unknown": 294,
+        "pilkwang_yes": 945,
+        "pilkwang_no": 2246,
+        "pilkwang_unknown": 285,
+        "explicit_contradiction": 198
+      },
+      "heldout": {
+        "studies": 869,
+        "steven_explicit": 801,
+        "steven_unknown": 68,
+        "pilkwang_yes": 249,
+        "pilkwang_no": 554,
+        "pilkwang_unknown": 66,
+        "explicit_contradiction": 33
+      }
+    },
+    {
+      "target": "MCL",
+      "gold58_positive": 9,
+      "train": {
+        "studies": 3476,
+        "steven_explicit": 3129,
+        "steven_unknown": 347,
+        "pilkwang_yes": 576,
+        "pilkwang_no": 2566,
+        "pilkwang_unknown": 334,
+        "explicit_contradiction": 54
+      },
+      "heldout": {
+        "studies": 869,
+        "steven_explicit": 779,
+        "steven_unknown": 90,
+        "pilkwang_yes": 173,
+        "pilkwang_no": 606,
+        "pilkwang_unknown": 90,
+        "explicit_contradiction": 16
+      }
+    },
+    {
+      "target": "Medial Meniscus",
+      "gold58_positive": 26,
+      "train": {
+        "studies": 3476,
+        "steven_explicit": 3278,
+        "steven_unknown": 198,
+        "pilkwang_yes": 1866,
+        "pilkwang_no": 1408,
+        "pilkwang_unknown": 202,
+        "explicit_contradiction": 103
+      },
+      "heldout": {
+        "studies": 869,
+        "steven_explicit": 826,
+        "steven_unknown": 43,
+        "pilkwang_yes": 445,
+        "pilkwang_no": 378,
+        "pilkwang_unknown": 46,
+        "explicit_contradiction": 29
+      }
+    },
+    {
+      "target": "Lateral Meniscus",
+      "gold58_positive": 23,
+      "train": {
+        "studies": 3476,
+        "steven_explicit": 3122,
+        "steven_unknown": 354,
+        "pilkwang_yes": 867,
+        "pilkwang_no": 2254,
+        "pilkwang_unknown": 355,
+        "explicit_contradiction": 62
+      },
+      "heldout": {
+        "studies": 869,
+        "steven_explicit": 791,
+        "steven_unknown": 78,
+        "pilkwang_yes": 224,
+        "pilkwang_no": 565,
+        "pilkwang_unknown": 80,
+        "explicit_contradiction": 13
+      }
+    },
+    {
+      "target": "Medial OA",
+      "gold58_positive": 15,
+      "train": {
+        "studies": 3476,
+        "steven_explicit": 2777,
+        "steven_unknown": 699,
+        "pilkwang_yes": 1291,
+        "pilkwang_no": 1315,
+        "pilkwang_unknown": 870,
+        "explicit_contradiction": 26
+      },
+      "heldout": {
+        "studies": 869,
+        "steven_explicit": 688,
+        "steven_unknown": 181,
+        "pilkwang_yes": 306,
+        "pilkwang_no": 322,
+        "pilkwang_unknown": 241,
+        "explicit_contradiction": 5
+      }
+    },
+    {
+      "target": "Lateral OA",
+      "gold58_positive": 11,
+      "train": {
+        "studies": 3476,
+        "steven_explicit": 2632,
+        "steven_unknown": 844,
+        "pilkwang_yes": 877,
+        "pilkwang_no": 1470,
+        "pilkwang_unknown": 1129,
+        "explicit_contradiction": 28
+      },
+      "heldout": {
+        "studies": 869,
+        "steven_explicit": 644,
+        "steven_unknown": 225,
+        "pilkwang_yes": 194,
+        "pilkwang_no": 369,
+        "pilkwang_unknown": 306,
+        "explicit_contradiction": 9
+      }
+    },
+    {
+      "target": "PF OA",
+      "gold58_positive": 21,
+      "train": {
+        "studies": 3476,
+        "steven_explicit": 2887,
+        "steven_unknown": 589,
+        "pilkwang_yes": 1589,
+        "pilkwang_no": 1263,
+        "pilkwang_unknown": 624,
+        "explicit_contradiction": 16
+      },
+      "heldout": {
+        "studies": 869,
+        "steven_explicit": 709,
+        "steven_unknown": 160,
+        "pilkwang_yes": 378,
+        "pilkwang_no": 314,
+        "pilkwang_unknown": 177,
+        "explicit_contradiction": 3
+      }
+    },
+    {
+      "target": "Effusion",
+      "gold58_positive": 35,
+      "train": {
+        "studies": 3476,
+        "steven_explicit": 3126,
+        "steven_unknown": 350,
+        "pilkwang_yes": 2088,
+        "pilkwang_no": 1039,
+        "pilkwang_unknown": 349,
+        "explicit_contradiction": 15
+      },
+      "heldout": {
+        "studies": 869,
+        "steven_explicit": 789,
+        "steven_unknown": 80,
+        "pilkwang_yes": 528,
+        "pilkwang_no": 258,
+        "pilkwang_unknown": 83,
+        "explicit_contradiction": 5
+      }
+    },
+    {
+      "target": "Synovitis",
+      "gold58_positive": 27,
+      "train": {
+        "studies": 3476,
+        "steven_explicit": 546,
+        "steven_unknown": 2930,
+        "pilkwang_yes": 437,
+        "pilkwang_no": 94,
+        "pilkwang_unknown": 2945,
+        "explicit_contradiction": 0
+      },
+      "heldout": {
+        "studies": 869,
+        "steven_explicit": 155,
+        "steven_unknown": 714,
+        "pilkwang_yes": 127,
+        "pilkwang_no": 20,
+        "pilkwang_unknown": 722,
+        "explicit_contradiction": 0
+      }
+    },
+    {
+      "target": "Baker's",
+      "gold58_positive": 12,
+      "train": {
+        "studies": 3476,
+        "steven_explicit": 1813,
+        "steven_unknown": 1663,
+        "pilkwang_yes": 898,
+        "pilkwang_no": 1000,
+        "pilkwang_unknown": 1578,
+        "explicit_contradiction": 8
+      },
+      "heldout": {
+        "studies": 869,
+        "steven_explicit": 439,
+        "steven_unknown": 430,
+        "pilkwang_yes": 200,
+        "pilkwang_no": 253,
+        "pilkwang_unknown": 416,
+        "explicit_contradiction": 1
+      }
+    },
+    {
+      "target": "Contusion",
+      "gold58_positive": 19,
+      "train": {
+        "studies": 3476,
+        "steven_explicit": 2646,
+        "steven_unknown": 830,
+        "pilkwang_yes": 984,
+        "pilkwang_no": 1762,
+        "pilkwang_unknown": 730,
+        "explicit_contradiction": 148
+      },
+      "heldout": {
+        "studies": 869,
+        "steven_explicit": 658,
+        "steven_unknown": 211,
+        "pilkwang_yes": 277,
+        "pilkwang_no": 420,
+        "pilkwang_unknown": 172,
+        "explicit_contradiction": 35
+      }
+    },
+    {
+      "target": "Fracture",
+      "gold58_positive": 18,
+      "train": {
+        "studies": 3476,
+        "steven_explicit": 1988,
+        "steven_unknown": 1488,
+        "pilkwang_yes": 221,
+        "pilkwang_no": 1290,
+        "pilkwang_unknown": 1965,
+        "explicit_contradiction": 8
+      },
+      "heldout": {
+        "studies": 869,
+        "steven_explicit": 494,
+        "steven_unknown": 375,
+        "pilkwang_yes": 74,
+        "pilkwang_no": 304,
+        "pilkwang_unknown": 491,
+        "explicit_contradiction": 0
+      }
+    }
+  ]
+}
